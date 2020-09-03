@@ -1,0 +1,10 @@
+# zsh aliases
+alias zshconfig="nano ~/.zshrc"
+alias ohmyzsh="nano ~/.oh-my-zsh"
+
+# python aliases 
+alias pipup="python -m pip install --upgrade pip"
+alias mkvenv="python -m venv venv; python -m pip install --upgrade pip"
+
+# raspberry pi aliases
+alias sshpi="ssh ratul@192.168.0.105"
