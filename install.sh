@@ -8,7 +8,7 @@ cp "./.p10k.zsh" "${HOME}/.p10k.zsh"
 
 # install oh-my-zsh
 # remove existing installation
-rm -r /home/pi/.oh-my-zsh
+rm -rf /home/pi/.oh-my-zsh
 echo "Installing oh-my-zsh"
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
