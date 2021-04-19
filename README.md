@@ -1,4 +1,4 @@
-# My ZSH
+# My ZSH Configuration
 
 My custom zsh configuration using zsh, oh-my-zsh and powerlevel10k
 
@@ -14,4 +14,8 @@ Install oh-my-zsh
 
 ```git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k```
 
-Set ZSH_THEME="powerlevel10k/powerlevel10k" in ~/.zshrc.
+Set `ZSH_THEME="powerlevel10k/powerlevel10k"` in `~/.zshrc`
+
+## Aliases
+
+Add custom aliases e.g. `alias t='tree -L 1'` to the `~/.zsh_aliases` file
