@@ -1,7 +1,5 @@
 #!/bin/bash
 
-
-
 # install oh-my-zsh
 # remove existing installation
 rm -rf /home/pi/.oh-my-zsh
