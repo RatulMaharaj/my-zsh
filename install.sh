@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # install oh-my-zsh
-if [! -d "${ZSH}"]; then 
+if [! -z "${ZSH}"]
+then 
     echo "Installing oh-my-zsh"
     sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 else
