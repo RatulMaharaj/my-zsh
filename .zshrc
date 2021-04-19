@@ -6,7 +6,7 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/ratulmaharaj/.oh-my-zsh"
+export ZSH="${HOME}/.oh-my-zsh"
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Uncomment the following line to use case-sensitive completion.
@@ -79,10 +79,10 @@ source $ZSH/oh-my-zsh.sh
 
 # custom additions to path
 export PATH="/usr/local/opt/ruby/bin:$PATH"
-export PATH="/Users/ratulmaharaj/.gem/ruby/2.7.0/bin:$PATH"
+export PATH="${HOME}/.gem/ruby/2.7.0/bin:$PATH"
 
 # Created by `userpath` on 2020-09-01 13:35:01
-export PATH="$PATH:/Users/ratulmaharaj/.local/bin"
+export PATH="$PATH:${HOME}/.local/bin"
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 if command -v pyenv 1>/dev/null 2>&1; then
