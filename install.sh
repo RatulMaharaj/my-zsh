@@ -15,8 +15,8 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 
 # move files into correct directory
 echo "moving config files to the correct directory"
-mv "./.zshrc" "${HOME}/.zshrc"
-mv "./.zsh_aliases" "${HOME}/.zsh_aliases"
-mv "./.p10k.zsh" "${HOME}/.p10k.zsh"
+cp "./.zshrc" "${HOME}/.zshrc"
+cp "./.zsh_aliases" "${HOME}/.zsh_aliases"
+cp "./.p10k.zsh" "${HOME}/.p10k.zsh"
 
 echo "installation complete!"
